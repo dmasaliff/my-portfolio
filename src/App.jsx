@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import {useRef,useState} from "react"
 import ThemeToggle from "./darkMode";
+import myImage from './assets/img/2.jpg'
 
 function App() {
   const hamburgerRef = useRef(null);
@@ -83,7 +84,7 @@ function App() {
             </div>
             <div className="w-full self-end px-9 lg:w-1/2 lg:pl-32 lg:pb-9">
               <div className="relative w-80 h-80 rounded-lg shadow-lg overflow-hidden">
-                <img src="./src/assets/img/2.jpg" alt="foto saya" className="object-cover w-auto h-auto rounded-lg "/>
+                <img src={myImage} alt="foto saya" className="object-cover w-auto h-auto rounded-lg "/>
               <div class="absolute inset-0 border-4 border-black border-opacity-50 rounded-lg"></div>
               </div>
             </div>
