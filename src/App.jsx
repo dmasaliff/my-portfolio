@@ -2,6 +2,10 @@ import React, { useEffect } from "react"
 import {useRef,useState} from "react"
 import ThemeToggle from "./darkMode";
 import myImage from './assets/img/2.jpg'
+import myImage1 from './assets/img/1 (2).jpg'
+import myImage2 from './assets/img/2 (2).png'
+import myImage3 from './assets/img/1 (4).png'
+import myImage4 from './assets/img/2 (3).png'
 
 function App() {
   const hamburgerRef = useRef(null);
@@ -153,28 +157,28 @@ function App() {
           <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
             <div className="mb-12 p-4 md:w-1/2">
               <div className="rounded-md shadow-md overflow-hidden">
-                <img src="./src/assets/img/1 (2).jpg" alt="landing page" width="w-full" />
+                <img src={myImage1} alt="landing page" width="w-full" />
               </div>
               <h3 className="font-semibold text-xl text-dark dark:text-white mt-5 mb-3">Dimas Landing Page</h3>
               <p className="font-medium text-base text-slate-800 dark:text-slate-100 ">My latest UI/UX project is a portfolio website design</p>
             </div>
             <div className="mb-12 p-4 md:w-1/2">
               <div className="rounded-md shadow-md overflow-hidden">
-                <img src="./src/assets/img/2 (2).png" alt="e-commerce" width="w-full" />
+                <img src={myImage2} alt="e-commerce" width="w-full" />
               </div>
               <h3 className="font-semibold text-xl text-dark dark:text-white mt-5 mb-3">E-Commerce</h3>
               <p className="font-medium text-base text-slate-800 dark:text-slate-100 ">My second UI/UX project is a e-commerce website design</p>
             </div>
             <div className="mb-12 p-4 md:w-1/2">
               <div className="rounded-md shadow-md overflow-hidden">
-                <img src="./src/assets/img/1 (4).png" alt="landing page" width="w-full" />
+                <img src={myImage3} alt="landing page" width="w-full" />
               </div>
               <h3 className="font-semibold text-xl text-dark dark:text-white mt-12 mb-3">Sellora</h3>
               <p className="font-medium text-base text-slate-800 dark:text-slate-100 ">My latest web project is a marketplace</p>
             </div>
             <div className="mb-12 p-4 md:w-1/2">
               <div className="rounded-md shadow-md overflow-hidden">
-                <img src="./src/assets/img/2 (3).png" alt="E-Commerce" width="w-full" />
+                <img src={myImage4} alt="E-Commerce" width="w-full" />
               </div>
               <h3 className="font-semibold text-xl text-dark dark:text-white mt-5 mb-3">E-Commerce</h3>
               <p className="font-medium text-base text-slate-800 dark:text-slate-100 ">My UI/UX project is a e-commerce website design</p>
