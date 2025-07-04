@@ -84,11 +84,13 @@ function App() {
               <h1 className='font-mono font-semibold text-dark dark:text-white md:text-xl'>Hello I'm <span className='block font-sans font-bold text-dark dark:text-white text-4xl mt-2 lg:text-5xl'>Dimas Alif Ferdiansyah</span> </h1>
               <h2 className='font-medium text-dark dark:text-white text-lg mb-1 mt-1 lg:text-2xl'>Full Stack Developer & UI / UX Designer</h2>
               <p className="font-semibold text-base text-dark dark:text-white mt-2 mb-5">Focused on crafting engaging and user-friendly web experiences.</p>
-              <button className="text-base font-semibold text-white bg-rose-500 py-3 px-7 rounded-full mb-20 hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</button>
+              <button className="text-base font-semibold text-white bg-rose-500 py-3 px-7 rounded-full mb-20 hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
+                <a href="https://wa.me/6285726129692">Contact Me</a>
+              </button>
             </div>
             <div className="w-full self-end px-9 lg:w-1/2 lg:pl-32 lg:pb-9">
-              <div className="relative w-80 h-80 rounded-lg shadow-lg overflow-hidden">
-                <img src={myImage} alt="foto saya" className="object-cover w-auto h-auto rounded-lg "/>
+              <div className="relative w-80 h-80 lg:mb-12 xl:mt-5 rounded-lg shadow-lg overflow-hidden">
+                <img src={myImage} alt="foto saya" className="imageSendiri object-cover w-auto h-auto rounded-lg "/>
               <div class="absolute inset-0 border-4 border-black border-opacity-50 rounded-lg"></div>
               </div>
             </div>
@@ -221,6 +223,7 @@ function App() {
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
               <h3 className="font-bold text-2xl mb-2">Contact me</h3>
+              <p>085726129692</p>
               <p>dimasalifferdiansyah@gmail.com</p>
               <p>Jakarta</p>
             </div>
